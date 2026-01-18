@@ -82,4 +82,3 @@ const PEOPLE = {
     bio: `De lieve broer van Frank Dane, Rust in vrede`
   },
 };
-
