@@ -71,13 +71,14 @@ const PEOPLE = {
         De Oorlogsgravenstichting heeft een database met namen en verhalen van oorlogsslachtoffers. Veel van deze slachtoffers worden herdacht door middel van een monument. Wilt u ons helpen om de namen en verhalen van slachtoffers te koppelen aan het monument waarop hun naam vermeld staat? Kijk dan op de website van de Oorlogsgravenstichting, ziet u in de database een naam die ook voorkomt op dit monument? Maak dan een account aan en koppel de persoon uit de database aan dit monument. Enkele dagen na de koppeling verschijnt de naam van het slachtoffer op deze pagina.`
   },
    "003": {
-    name: "",
-    born: "",
-    died: "",
-    heroPhoto: "",
+    name: "Robert Jensen",
+    born: "12-04-1973",
+    died: "12-01-2026",
+    heroPhoto: "img/003/001-hoofdfoto.png",
     photos: [
-      "",
+      "img/003/002.jpg",
+      "img/003/003.jpg",
     ],
-    bio: ``
+    bio: `De lieve broer van Frank Dane, Rust in vrede`
   },
 };
