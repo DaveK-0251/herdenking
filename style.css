@@ -1,0 +1,183 @@
+:root{
+  --bg: #d8cec1;
+  --surface: #efe7dd;
+  --text: #1f1c18;
+  --muted:#6c6358;
+  --border: rgba(31, 28, 24, 0.10);
+
+  --brand: #6b4a7a;
+  --shadow: 0 10px 22px rgba(0,0,0,.08);
+  --radius: 18px;
+}
+
+
+*{ box-sizing: border-box; }
+html,body{ margin:0; padding:0; }
+
+body{
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* Bovenbalk */
+.sitebar{
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.sitebar__inner{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sitebar__brand{
+  display:flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sitebar__title{
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--brand);
+  font-size: 16px;
+  line-height: 1.1;
+}
+
+.sitebar__subtitle{
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Layout container */
+.container{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* HERO HEADER */
+.hero{
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  min-height: 380px;
+  background: #ddd;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.hero__img{
+  width:100%;
+  height: auto;
+  object-fit: cover;
+  display:block;
+}
+
+/* Donkere overlay voor leesbaarheid tekst */
+.hero__overlay{
+  position:absolute;
+  inset:0;
+  background: linear-gradient(to top, rgba(0,0,0,.65), rgba(0,0,0,.05));
+}
+
+.hero__content{
+  position:absolute;
+  left:16px;
+  right:16px;
+  bottom:14px;
+}
+
+.hero__title{
+  margin:0;
+  font-size: 34px;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: white;
+  text-shadow: 0 2px 18px rgba(0,0,0,.35);
+}
+
+.hero__dates{
+  margin: 8px 0 0;
+  color: rgba(255,255,255,.9);
+  font-size: 14px;
+}
+
+/* INFO CARD */
+.card{
+  margin-top: 14px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 22px 20px 18px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.card h2{
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.card p{
+  margin:0;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+/* RESPONSIVE */
+@media (min-width: 720px){
+  .container{ padding: 22px; }
+  .hero__img{ height: 700px; }
+  .hero__title{ font-size: 44px; }
+  .hero__dates{ font-size: 15px; }
+}
+
+.photoList{
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* nieuwe wrapper zodat contain er netjes uitziet */
+.photoFrame{
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* foto: volledig zichtbaar (niet croppen) */
+.photo{
+  width: 100%;
+  height: auto;            /* <-- belangrijk */
+  max-height: 70vh;        /* voorkomt mega hoog */
+  object-fit: contain;     /* <-- belangrijk */
+  display: block;
+  border-radius: calc(var(--radius) - 6px);
+
+  opacity: 0;
+  transition: transform 600ms ease, opacity 600ms ease;
+}
+
+.slide-left{ transform: translateX(-40px); }
+.slide-right{ transform: translateX(40px); }
+
+.photo.is-visible{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+#bio{
+  white-space: pre-line;
+}
+
+@media (min-width: 720px){
+  .photo{ height: 420px; }
+}
