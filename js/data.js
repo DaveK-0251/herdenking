@@ -74,7 +74,7 @@ const PEOPLE = {
     name: "Robert Jensen",
     born: "12-04-1973",
     died: "12-01-2026",
-    heroPhoto: "img/003/001-hoofdfoto.png",
+    heroPhoto: "img/003/001-hoofdfoto.jpg",
     photos: [
       "img/003/002.jpg",
       "img/003/003.jpg",
@@ -82,3 +82,4 @@ const PEOPLE = {
     bio: `De lieve broer van Frank Dane, Rust in vrede`
   },
 };
+
