@@ -79,6 +79,8 @@ const PEOPLE = {
       "img/003/002.jpg",
       "img/003/003.jpg",
     ],
-    bio: `De lieve broer van Frank Dane, Rust in vrede`
+    bio: `Hij voelde zich afgelopen weekend niet goed en is naar het ziekenhuis gegaan. Daar is hij maandagavond overleden aan een hartstilstand", luidt het bericht. "We zijn verslagen en verdrietig, maar ook trots en dankbaar voor alles wat Robert ons gegeven heeft.
+
+        Mijn geweldige broertje is er niet meer. Het is zo verdrietig, schrijft zijn broer Frank Dane op Instagram. Ik ga je warmte zo missen lieve, lieve Robert. Waar je ook was op deze wereld. Ik kwam naar je toe en tot diep in de nacht was het magisch. Weet niet waar ik zou zijn zonder je. Wat een geluk dat jij mijn broer bent. Voor altijd.`
   },
 };
