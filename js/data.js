@@ -115,6 +115,8 @@ const PEOPLE = {
     photos: [
       "img/005/002.jpg",
       "img/005/003.jpg",
+      "img/005/004.jpg",
+      "img/005/005.jpg",
     ],
     bio: `Aar, Hendrik van der
           Geboren op 12 augustus 1925 en overleden op 14 november 1944 te Peres bij Leipzig in Duitsland. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. In de nacht van 6 op 7 juli 1944 is hij van dit concentratiekamp op transport gesteld naar Duitsland. In het concentratiekamp Peres werd hij 15 november 1944 ‘s nacht om 5.15 uur gefusilleerd. Zijn herbegrafenis vond plaats op 31 maart 1950 op de R.K. begraafplaats aan de Peperstraat.
