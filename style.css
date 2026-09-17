@@ -3,9 +3,9 @@
   --ink: #1d1d1b; --slate: #2d3748; --muted: #667085; --line: #e2e8f0;
   --paper: #fff; --mist: #f5f6f3; --shadow: 0 14px 40px rgba(29,29,27,.10);
 }
-* { box-sizing: border-box; }
+* { box-sizing: border-box;}
 html { scroll-behavior: smooth; }
-body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+body {cursor: default; margin: 0; color: var(--ink); background: var(--paper); font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
 img { max-width: 100%; }
 a { color: var(--blue); }
 h1, h2, h3 { margin-top: 0; font-family: "Alegreya Sans", system-ui, sans-serif; line-height: 1.12; letter-spacing: -.025em; }
@@ -18,7 +18,7 @@ h2 { margin-bottom: .75rem; color: var(--purple); font-size: clamp(1.8rem, 4vw, 
 .sitebar { position: sticky; top: 0; z-index: 20; border-bottom: 5px solid var(--yellow); background: rgba(255,255,255,.97); }
 .sitebar__inner { width: min(1120px, calc(100% - 36px)); min-height: 78px; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .wordmark { display: flex; align-items: center; gap: 12px; color: var(--purple); text-decoration: none; }
-.wordmark__mark { width: 43px; height: 43px; display: grid; place-items: center; border: 2px solid var(--purple); border-radius: 50% 45% 55% 40%; font-family: Georgia, serif; font-size: 1.7rem; font-style: italic; }
+.wordmark__logo { width: 62px; height: 44px; display: block; object-fit: contain; flex-shrink: 0; }
 .wordmark strong, .wordmark small { display: block; }
 .wordmark strong { font-size: 1.05rem; letter-spacing: .03em; }
 .wordmark small { color: var(--ink); font-size: .72rem; }
@@ -79,11 +79,22 @@ h2 { margin-bottom: .75rem; color: var(--purple); font-size: clamp(1.8rem, 4vw, 
 .tool .button { margin-top: 16px; border: 0; cursor: pointer; }
 .qr-output { overflow-wrap: anywhere; }
 .qr-output img { width: 300px; max-width: 100%; padding: 12px; border: 1px solid var(--line); }
+.about-section {position: relative; padding: 80px 0; background: var(--mist);}
+.about-section::before {content: ""; position: absolute; top: 0; left: 0; width: 120px; height: 7px;}
+.about-section__intro { max-width: 760px; margin-bottom: 42px;}
+.about-section__intro h2 { margin-bottom: 18px;}
+.about-section__lead { margin: 0; color: var(--slate); font-size: clamp(1.05rem, 2vw, 1.25rem); line-height: 1.8;}
+.info-grid {display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;}
+.info-card {position: relative; padding: 28px; border: 1px solid var(--line); border-bottom: 5px solid var(--yellow); background: var(--paper); box-shadow: 0 5px 18px rgba(29, 29, 27, 0.07);}
+.info-card__number { display: block; margin-bottom: 18px; color: var(--purple); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.14em;}
+.info-card h3 {margin-bottom: 12px; color: var(--purple); font-size: 1.45rem;}
+.info-card p { margin: 0; color: var(--muted);}
+
 @media (max-width: 760px) {
   .sitebar__inner { min-height: 68px; }
-  .wordmark__mark { width: 37px; height: 37px; }
+  .wordmark__logo { width: 53px; height: 38px; }
   .wordmark strong { font-size: .9rem; }
-  .wordmark small { display: none; }
+  .wordmark small { display: block; }
   .nav a { padding: 7px 8px; font-size: .82rem; }
   .intro { min-height: 500px; background-image: linear-gradient(0deg,rgba(15,25,17,.87),rgba(15,25,17,.18)), url("./img/home/test.jpg"); }
   .intro__inner { padding-bottom: 54px; }
@@ -94,5 +105,11 @@ h2 { margin-bottom: .75rem; color: var(--purple); font-size: clamp(1.8rem, 4vw, 
   .footer__inner { justify-content: center; }
   .footer__inner { padding-block: 38px; }
   .hero { min-height: 62vh; }
+  .about-section { padding: 56px 0; }
+  .about-section__intro { margin-bottom: 30px;  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *,*::before,*::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
