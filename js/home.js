@@ -27,7 +27,7 @@ function render(query = "") {
     if (person.highlight) {
       const badge = document.createElement("span");
       badge.className = "person-card__badge";
-      badge.textContent = "Uitgelicht";
+      badge.textContent = "Monument";
       link.append(badge);
     }
     link.append(image,body); card.append(link); return card;
