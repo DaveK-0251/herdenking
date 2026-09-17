@@ -85,7 +85,7 @@ h2 { margin-bottom: .75rem; color: var(--purple); font-size: clamp(1.8rem, 4vw, 
   .wordmark strong { font-size: .9rem; }
   .wordmark small { display: none; }
   .nav a { padding: 7px 8px; font-size: .82rem; }
-  .intro { min-height: 500px; background-image: linear-gradient(0deg,rgba(15,25,17,.87),rgba(15,25,17,.18)), url("./img/001/001-hoofdfoto.jpeg"); }
+  .intro { min-height: 500px; background-image: linear-gradient(0deg,rgba(15,25,17,.87),rgba(15,25,17,.18)), url("./img/home/duinrust-fotos-3.jpg"); }
   .intro__inner { padding-bottom: 54px; }
   .section { padding-block: 54px 64px; }
   .section__heading, .footer__inner { align-items: stretch; flex-direction: column; }
