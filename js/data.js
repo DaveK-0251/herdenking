@@ -3,7 +3,7 @@
 const PEOPLE = {
   "001": {
     name: "Oorlogs Graven",
-    highlight: false,
+    highlight: true,
     born: "",
     died: "",
     heroPhoto: "img/001/001-hoofdfoto.jpeg",
@@ -30,7 +30,7 @@ const PEOPLE = {
   },
   "002": {
     name: "Joods Namenmonument",
-    highlight: false,
+    highlight: true,
     born: "",
     died: "",
     heroPhoto: "img/002/001-hoofdfoto.jpg",
