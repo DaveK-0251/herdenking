@@ -106,4 +106,68 @@ const PEOPLE = {
 
           Engels en Saunders hebben een zoon, Benji Ray (9). Beiden hadden al een kind uit een eerdere relatie.`
   },
+    "005": {
+    name: "Hollandse Jongens",
+    highlight: true,
+    born: "",
+    died: "",
+    heroPhoto: "img/005/001-hoofdfoto.jpg",
+    photos: [
+      "img/005/002.jpg",
+      "img/005/003.jpg",
+    ],
+    bio: `Aar, Hendrik van der
+          Geboren op 12 augustus 1925 en overleden op 14 november 1944 te Peres bij Leipzig in Duitsland. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. In de nacht van 6 op 7 juli 1944 is hij van dit concentratiekamp op transport gesteld naar Duitsland. In het concentratiekamp Peres werd hij 15 november 1944 ‘s nacht om 5.15 uur gefusilleerd. Zijn herbegrafenis vond plaats op 31 maart 1950 op de R.K. begraafplaats aan de Peperstraat.
+
+          Rumping, Johannes
+          Geboren op 26 april 1923 te Beverwijk en overleden op 25 april 1945 in het Hilff. Krankenhaus te Halle in Duitsland. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. Via het concentratiekamp Amersfoort is hij weggevoerd naar Duitsland. In 1949 werd hij herbegraven op de R.K. begraafplaats aan de Peperstraat.
+
+          Rumping, Johannes Cornelis
+          Geboren 12 augustus 1921 te Velsen en overleden op 28 december 1944 te Böhlen in Duitsland. Broer van Simon Cornelis. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. Via dit concentratiekamp is hij weggevoerd naar Duitsland. Zijn stoffelijk overschot werd in 1951 herbegraven op Duinrust.
+
+          Groen, Engel
+          Geboren 29 augustus 1920 te Egmond aan Zee en overleden 24 februari 1944 te Gotha in Duitsland. Broer van Cornelis Groen. Was gedwongen te werk gesteld in Duitsland. Zijn herbegrafenis vond plaats in augustus 1950 op begraafplaats Duinrust.
+
+          Groen, Cornelis
+          Geboren op 5 september 1923 te Egmond aan Zee en overleden op 26 januari 1945 te Dortmund in Duitsland. Broer van Engel Groen. Was gedwongen te werk gesteld in Duitsland. Zijn herbegrafenis vond plaat in november 1950 op begraafplaats Duinrust.
+
+          Oud, Johannis Lourentius
+          Geboren 5 april 1926 te Koedijk en overleden op 25 april 1945 te Pulgar in Duitsland. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. In de nacht van 6 op 7 juli 1944 is hij van dit concentratiekamp op transport gesteld naar Duitsland. Op 4 november 1949 werd hij herbegraven op begraafplaats Duinrust.
+
+          Burger, Theodorus
+          Geboren op 25 mei 1924 te Wijk aan Zee en Duin en overleden op 12 december 1944 in het Lager te Ammersdorff in Duitsland om 8.30 uur. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. Via dit concentratiekamp is hij op transport gesteld naar Duitsland. Op 28 april 1949 herbegraven op Duinrust.
+
+          Henneman, Isidorus Jacobus
+          Geboren op 26 juni 1919 te Wijk aan Zee en Duin en overleden op 7 december 1944 te Ammersdorff in Duitsland. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. Via dit concentratiekamp is hij op transport gesteld naar Duitsland. Op 28 april 1949 werd hij herbegraven op Duinrust.
+
+          Braun, Franciscus Johannes Marie
+          Geboren op 5 december 1925 te Beverwijk en overleden op 14 december 1944 te Ammersdorff in Duitsland, omstreeks 12.45 uur. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. Via dit concentratiekamp is hij op transport gesteld naar Duitsland. Op 28 april 1949 herbegraven op Duinrust.
+
+          Hoogland, Petrus Cornelis
+          Geboren op 22 april 1921 te Beverwijk en overleden op 23 november 1944 te Ammersdorff in Duitsland. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. Via dit concentratiekamp is hij op transport gesteld naar Duitsland. Op 28 april 1949 werd hij herbegraven op Duinrust.
+
+          Lubbers, Johannes
+          Geboren op 5 juni 1925 te Beverwijk en overleden op 11 april 1945 te Pulgar in Duitsland. Tijdens een door de Duitsers gehouden razzia te Beverwijk op 16 april 1944 gearresteerd en weggevoerd naar het concentratiekamp te Amersfoort. In de nacht van 6 op 7 juli 1944 is hij van dit concentratiekamp op transport gesteld naar Duitsland. In november 1949 vond zijn herbegrafenis plaats op Duinrust.
+
+          Pletting, Reinier
+          Geboren 28 augustus 1918 te Beverwijk en overleden 12 maart 1945 te Amsterdam. Samen met zijn boezemvriend Jan Dirk Semeins was hij lid van de Binnenlandse Strijdkrachten. Reinier was groepscommandant van het S.G. der Binnenlandse Strijdkrachten te Beverwijk. Verspreidde het illegale blad Vrij Nederland. Werd gelijk met Jan Pleeging en Jan Semeins op 26 februari 1945 gearresteerd door de Duitse politie, wegens hulp aan onderduikers en Joden en zonder proces gefusilleerd in het Weteringplantsoen in Amsterdam. Op 27 oktober 1945 na een rouwdienst in de Grote Kerk in Beverwijk werd hij herbegraven op Duinrust.
+
+          Semeins, Jan Dirk
+          Geboren 22 maart 1916 te Wijk aan Zee en Duin en overleden 12 maart 1945 te Amsterdam. Samen met zijn boezemvriend Reinier Pletting was hij lid van de Binnenlandse Strijdkrachten. Was groepscommandant van het S.G. der Binnenlandse Strijdkrachten te Beverwijk. Werd gelijk met Reinier Pletting en Jan Pleeging op 26 februari 1945 door de Duitse politie gearresteerd, wegens hulp aan onderduikers en Joden. Zonder een vorm van een proces gefusilleerd in het Weteringplantsoen te Amsterdam. Op 27 oktober 1945 werd hij na een rouwdienst in de Grote Kerk in Beverwijk herbegraven op Duinrust.
+
+          Kuenen, Gerrit Jan
+          Geboren op 13 januari 1918 te Aalten, overleden in de nacht van 31 mei op 1 juni 1944 te Gilze-Rijen, als 2de luitenant der Secret Service. Voor de oorlog was Jan werkzaam bij de Machinefabriek te Beverwijk. Op 2 februari 1938 werd hij opgeroepen voor militaire dienst en had de rang van korporaal-geweermaker. Wegens een, tijdens de sportbeoefening opgelopen meniscus, werd hij afgekeurd en maakte de Duitse inval in 1940 thuis mee. Intussen werkte hij bij Hoogovens IJmuiden. Hier ontmoette hij Kees van der Poel. Beiden deden zoveel mogelijk om de bezetter schade te berokkenen. Beiden trachtten naar Engeland te vluchten, wat hem uiteindelijk in 1941 ook lukte. Over land via Spanje, Curaçao en Canada wist hij Engeland te bereiken. In Engeland werd Jan gerekruteerd om als geheim agent terug te keren naar Nederland. In de nacht van 31 mei zou hij samen met een andere agent gedropt worden boven Nederland. In de buurt van het vliegveld Gilze-Rijen werd het vliegtuig aangeschoten en stortte neer. Hierbij kwamen alle inzittenden om het leven. Jan werd aanvankelijk begraven te Gilze-Rijen, maar op 22 september 1945 werd hij met alle militaire eer begraven op begraafplaats Duinrust.
+
+          Bergers, Pieter Steven
+          Geboren 6 september 1920 te Velsen, overleden 14 mei 1940 te Vlissingen. Piet trad op 9 september 1939 in dienst als vrijwilliger van de Koninklijke Marine voor een tijd van 6 jaar. Zijn functie was telegrafist. Na zijn opleiding werd hij als matroos 2de klasse geplaatst op het opleidingsschip H.M. Noord-Brabant. Tijdens een bombardement van Duitse vliegtuigen op 14 mei op het bewapend vaartuig 34, dat voor de rede van Vlissingen lag, sneuvelde hij. Zijn lichaam spoelde dagen later aan bij Koudekerken, op 23 juli 1940. Zijn herbegrafenis vond op 7 augustus 1940 plaats op begraafplaats Duinrust.
+
+          Dekker, Gerrit
+          Geboren 24 oktober 1919 te Beverwijk, overleden op 15 mei 1940 te Den Helder. Voor dat Gerrit gemobiliseerd werd, was hij als seizoensarbeider werkzaam, o.a. bij de Firma Docter Conservenfabriek aan de Breestraat. Als soldaat der Infanterie werd Gerrit gelegerd op de versterkingen bij Den Helder. Deze plaats werd op 14 mei, na de capitulatie en naar later bleek per vergissing, ’s avond om kwart over acht door de Duitse Luftwaffe gebombardeerd. Het bombardement vergde achtentwintig mensenlevens, waaronder dat van Gerrit. Aanvankelijk begraven te Den Dolder en op 10 oktober 1940 herbegraven op begraafplaats Duinrust.
+
+          Adelaar, Antonius Adrianus
+          Geboren op 11 februari 1919 te Beverwijk en overleden op 19 maart 1945 te Berlijn. Tijdens de mobilisatie in 1939 opgeroepen en ingedeeld bij de infanterie en had de rang van sergeant. Tijdens de meidagen in 1940 gevochten in Rotterdam. Na zijn terugkeer in Beverwijk was hij enige tijd werkeloos. In 1941 kreeg hij werk als bankwerker bij een machinefabriek in Haarlem. Vandaar werd hij gevorderd voor tewerkstelling in Duitsland. Zo vertrok hij op 29 mei 1942 naar Berlijn-Tegel. Hier werd hij tewerk gesteld bij Rheinestall en Borsig A.G. Aldaar werd hij tijdens een bombardement getroffen en overleed ten gevolge van een schedelbreuk. Hij werd herbegraven op Duinrust.
+
+          Pleeging, Jan
+          Geboren 12 juli 1896 te Wijk aan Zee en Duin en overleden 12 maart 1945 te Amsterdam. Hij had een tuindersbedrijf te Beverwijk en was lid van de Binnenlandse Strijdkrachten. In een hem toebehorende bollenschuur aan de Creutzberglaan bevond zich een belangrijk ondergronds wapendepot. Werd tegelijkertijd met Reinier Pletting en Jan Semeins op 26 februari 1945 door de Duitse politie gearresteerd, wegens hulp aan onderduikers en Joden. Zonder een vorm van proces werd hij gefusilleerd in het Weteringplantsoen te Amsterdam. Op 27 oktober 1945 na een rouwdienst in de Grote Kerk in Beverwijk werd hij herbegraven op Duinrust.`
+  },
 };
