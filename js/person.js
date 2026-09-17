@@ -1,62 +1,22 @@
-// js/person.js
 const params = new URLSearchParams(location.search);
-const id = params.get("id") || "001"; // default voor test
-const p = PEOPLE[id];
-
-const heroImg = document.getElementById("heroImg");
-const nameEl = document.getElementById("name");
-const datesEl = document.getElementById("dates");
-const bioEl = document.getElementById("bio");
-
-if (!p) {
-  nameEl.textContent = "Pagina niet gevonden";
-  datesEl.textContent = "";
-  bioEl.textContent = "Deze QR-code verwijst naar een onbekende pagina.";
+const id = params.get("id");
+const person = id ? PEOPLE[id] : null;
+const memorial = document.getElementById("memorial");
+const notFound = document.getElementById("notFound");
+if (!person) {
+  memorial.hidden = true; notFound.hidden = false; document.title = "Pagina niet gevonden | Herinneringen Duinrust";
 } else {
-  nameEl.textContent = p.name || "";
-  datesEl.textContent = [
-    p.born ? `Geboren: ${p.born}` : null,
-    p.died ? `Overleden: ${p.died}` : null
-  ].filter(Boolean).join(" • ");
-
-  bioEl.textContent = p.bio || "";
-  if (p.heroPhoto) heroImg.src = p.heroPhoto;
-  heroImg.alt = `Foto van ${p.name || "persoon"}`;
+  const name = person.name || "Herdenkingspagina";
+  document.title = `${name} | Herinneringen Duinrust`;
+  document.querySelector('meta[name="description"]').content = `Herdenkingspagina van ${name} op Begraafplaats Duinrust.`;
+  document.getElementById("name").textContent = name;
+  document.getElementById("dates").textContent = [person.born ? `Geboren ${person.born}` : "", person.died ? `Overleden ${person.died}` : ""].filter(Boolean).join(" · ");
+  const hero = document.getElementById("heroImg"); hero.src = person.heroPhoto; hero.alt = `Hoofdfoto van ${name}`;
+  document.getElementById("bio").textContent = person.bio || "";
+  const gallery = document.getElementById("photoList");
+  const photos = Array.isArray(person.photos) ? person.photos : [];
+  document.getElementById("gallerySection").hidden = photos.length === 0;
+  photos.forEach(src => { const figure = document.createElement("figure"); figure.className = "photo-frame"; const image = document.createElement("img"); image.className = "photo"; image.src = src; image.alt = `Foto bij de herdenking van ${name}`; image.loading = "lazy"; figure.append(image); gallery.append(figure); });
+  const observer = new IntersectionObserver(items => items.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add("is-visible"); observer.unobserve(entry.target); } }), {threshold:.12});
+  document.querySelectorAll(".photo").forEach(photo => observer.observe(photo));
 }
-
-const photoListEl = document.getElementById("photoList");
-
-// Extra foto's tonen (max 5)
-photoListEl.innerHTML = "";
-
-const extraPhotos = (p.photos || []).slice(0, 5);
-
-extraPhotos.forEach((src, i) => {
-  const frame = document.createElement("div");
-  frame.className = "photoFrame";
-
-  const img = document.createElement("img");
-  img.src = src;
-  img.alt = `Foto van ${p.name}`;
-  img.loading = "lazy";
-  img.className = `photo ${i % 2 === 0 ? "slide-left" : "slide-right"}`;
-
-  frame.appendChild(img);
-  photoListEl.appendChild(frame);
-});
-
-// Slide-in animatie als ze in beeld komen
-const photos = document.querySelectorAll(".photo");
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting){
-      entry.target.classList.add("is-visible");
-      io.unobserve(entry.target);
-    }
-  });
-}, { threshold: 0.15 });
-
-photos.forEach((photo, i) => {
-  photo.style.transitionDelay = `${i * 90}ms`;
-  io.observe(photo);
-});

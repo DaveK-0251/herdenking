@@ -31,7 +31,7 @@ const PEOPLE = {
     name: "Joods Namenmonument",
     born: "",
     died: "",
-    heroPhoto: "img/002/001-hoofdfoto.png",
+    heroPhoto: "img/002/001-hoofdfoto.jpg",
     photos: [
       
     ],
