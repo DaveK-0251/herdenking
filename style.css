@@ -25,7 +25,7 @@ h2 { margin-bottom: .75rem; color: var(--purple); font-size: clamp(1.8rem, 4vw, 
 .nav { display: flex; align-items: center; gap: 4px; }
 .nav a { padding: 9px 12px; border-radius: 4px; color: var(--ink); font-size: .92rem; text-decoration: none; }
 .nav a:hover, .nav a[aria-current="page"] { color: #fff; background: var(--purple); }
-.intro { position: relative; min-height: 560px; display: grid; align-items: end; color: #fff; background: linear-gradient(90deg, rgba(15,25,17,.86) 0 43%, rgba(15,25,17,.22) 70%), url("./img/home/duinrust-fotos-3.jpg") center 42% / cover; }
+.intro { position: relative; min-height: 560px; display: grid; align-items: end; color: #fff; background: linear-gradient(90deg, rgba(15,25,17,.86) 0 43%, rgba(15,25,17,.22) 70%), url("./img/home/test.jpg") center 50% / cover; }
 .intro::after { content: ""; position: absolute; inset: auto 0 0; height: 7px; background: var(--yellow); }
 .intro__inner { width: min(1120px, calc(100% - 36px)); margin: 0 auto; padding: 90px 0 78px; }
 .intro h1 { max-width: 780px; margin-bottom: 18px; }
@@ -85,7 +85,7 @@ h2 { margin-bottom: .75rem; color: var(--purple); font-size: clamp(1.8rem, 4vw, 
   .wordmark strong { font-size: .9rem; }
   .wordmark small { display: none; }
   .nav a { padding: 7px 8px; font-size: .82rem; }
-  .intro { min-height: 500px; background-image: linear-gradient(0deg,rgba(15,25,17,.87),rgba(15,25,17,.18)), url("./img/home/duinrust-fotos-3.jpg"); }
+  .intro { min-height: 500px; background-image: linear-gradient(0deg,rgba(15,25,17,.87),rgba(15,25,17,.18)), url("./img/home/test.jpg"); }
   .intro__inner { padding-bottom: 54px; }
   .section { padding-block: 54px 64px; }
   .section__heading, .footer__inner { align-items: stretch; flex-direction: column; }
