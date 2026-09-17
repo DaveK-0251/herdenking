@@ -3,6 +3,7 @@
 const PEOPLE = {
   "001": {
     name: "Oorlogs Graven",
+    highlight: false,
     born: "",
     died: "",
     heroPhoto: "img/001/001-hoofdfoto.jpeg",
@@ -29,6 +30,7 @@ const PEOPLE = {
   },
   "002": {
     name: "Joods Namenmonument",
+    highlight: false,
     born: "",
     died: "",
     heroPhoto: "img/002/001-hoofdfoto.jpg",
@@ -72,6 +74,7 @@ const PEOPLE = {
   },
    "003": {
     name: "Robert Jensen",
+    highlight: false,
     born: "12-04-1973",
     died: "12-01-2026",
     heroPhoto: "img/003/002.jpg",
@@ -85,6 +88,7 @@ const PEOPLE = {
   },
     "004": {
     name: "Ben Saunders",
+    highlight: false,
     born: "9 juli 1983",
     died: "15 september 2026",
     heroPhoto: "img/004/001-hoofdfoto.jpg",
