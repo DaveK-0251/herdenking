@@ -1,23 +1,9 @@
 <!doctype html>
 <html lang="nl">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>QR Generator</title>
-  <link rel="stylesheet" href="./style.css" />
-</head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Maak een QR-code voor een herdenkingspagina."><title>QR-code maken | Herinneringen Duinrust</title><link rel="stylesheet" href="./style.css"></head>
 <body>
-  <main class="container">
-    <h1>QR Code Generator</h1>
-
-    <label>ID (bijv. 001)</label>
-    <input id="pid" class="input" placeholder="001" />
-
-    <button id="btn" class="btn">Maak QR</button>
-
-    <div id="out" style="margin-top:16px;"></div>
-  </main>
-
-  <script src="./js/qr.js"></script>
+  <header class="sitebar"><div class="sitebar__inner"><a class="wordmark" href="./index.html"><span class="wordmark__mark" aria-hidden="true">D</span><span><strong>Herinneringen</strong><small>Begraafplaats Duinrust</small></span></a><nav class="nav" aria-label="Hoofdnavigatie"><a href="./index.html">Terug naar website</a></nav></div></header>
+  <main class="tool"><p class="eyebrow eyebrow--dark">Hulpmiddel</p><h1>QR-code maken</h1><p>Kies een bestaande pagina. De QR-code verwijst automatisch naar het juiste adres.</p><label for="pid">Herdenkingspagina</label><select id="pid" class="select"></select><button id="btn" class="button button--purple" type="button">Maak QR-code</button><div id="out" class="qr-output" aria-live="polite"></div></main>
+  <script src="./js/data.js"></script><script src="./js/qr.js"></script>
 </body>
 </html>

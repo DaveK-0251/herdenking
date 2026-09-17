@@ -1,43 +1,44 @@
 <!doctype html>
 <html lang="nl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Herdenking</title>
-  <link rel="stylesheet" href="./style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Verhalen en herinneringen van Begraafplaats Duinrust in Beverwijk.">
+  <title>Herinneringen | Begraafplaats Duinrust</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="sitebar">
+  <a class="skip-link" href="#inhoud">Naar de inhoud</a>
+  <header class="sitebar">
     <div class="sitebar__inner">
-        <div class="sitebar__brand">
-        <span class="sitebar__title">Begraafplaats Duinrust</span>
-        <span class="sitebar__subtitle">Gemeente Beverwijk</span>
-        </div>
+      <a class="wordmark" href="./index.html" aria-label="Herinneringen Duinrust, voorpagina">
+        <span class="wordmark__mark" aria-hidden="true">D</span>
+        <span><strong>Herinneringen</strong><small>Begraafplaats Duinrust</small></span>
+      </a>
+      <nav class="nav" aria-label="Hoofdnavigatie"><a aria-current="page" href="./index.html">Overzicht</a></nav>
     </div>
-    </header>
-
-    <main class="container">
-        <header class="hero">
-        <img id="heroImg" class="hero__img" src="assets/img/placeholder.jpg" alt="" />
-        <div class="hero__overlay"></div>
-
-        <div class="hero__content">
-            <h1 id="name" class="hero__title">Naam Overledene</h1>
-            <p id="dates" class="hero__dates">Geboren: … • Overleden: …</p>
-        </div>
-        </header>
-
-        <section class="card">
-        <h2>Informatie</h2>
-        <p id="bio">
-            Hier komt de tekst over de overledene.
-        </p>
-        </section>
-        <section id="photoList" class="photoList"></section>
-    </main>
-
-    <script src="./js/data.js"></script>
-    <script src="./js/person.js"></script>
-
+  </header>
+  <main id="inhoud">
+    <section class="intro">
+      <div class="intro__inner">
+        <p class="eyebrow">Begraafplaats Duinrust · Beverwijk</p>
+        <h1>Verhalen om te blijven herinneren</h1>
+        <p>Bekijk de herdenkingspagina’s van mensen en monumenten op Duinrust.</p>
+        <a class="button button--light" href="#herdenkingen">Bekijk de herdenkingen</a>
+      </div>
+    </section>
+    <section id="herdenkingen" class="section container" aria-labelledby="overzicht-titel">
+      <div class="section__heading">
+        <div><p class="eyebrow eyebrow--dark">Herdenkingspagina’s</p><h2 id="overzicht-titel">Een overzicht van alle verhalen</h2></div>
+        <label class="search"><span class="sr-only">Zoek een herdenkingspagina</span><input id="search" type="search" placeholder="Zoek op naam…" autocomplete="off"></label>
+      </div>
+      <p id="resultCount" class="result-count" aria-live="polite"></p>
+      <div id="peopleGrid" class="people-grid"></div>
+      <p id="emptyState" class="empty-state" hidden>Geen herdenkingspagina’s gevonden.</p>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer__inner"><p><strong>Herinneringen Duinrust</strong><br><span>Met aandacht bewaard</span></p><p><a href="https://begraafplaatsduinrust.beverwijk.nl/">Website Begraafplaats Duinrust</a></p></div></footer>
+  <script src="./js/data.js"></script>
+  <script src="./js/home.js"></script>
 </body>
 </html>
