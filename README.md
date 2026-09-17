@@ -16,3 +16,19 @@ Open `https://davek-0251.github.io/herdenking/qr.html`, kies een bestaande pagin
 ## Handmatig aanpassen
 
 De bestaande pagina's staan in `js/data.js`. Iedere pagina heeft een unieke ID, naam, datums, hoofdfoto, extra foto's en een verhaal. De overzichtspagina wordt automatisch uit deze gegevens opgebouwd.
+
+## Een pagina uitlichten
+
+Iedere pagina in `js/data.js` heeft de instelling `highlight`. Verander bij de gewenste pagina:
+
+```js
+highlight: false,
+```
+
+naar:
+
+```js
+highlight: true,
+```
+
+De pagina verschijnt dan automatisch bovenaan het overzicht met het label **Uitgelicht**. Je kunt ook meerdere pagina's tegelijk uitlichten; deze worden onderling alfabetisch gesorteerd.
