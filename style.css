@@ -90,7 +90,7 @@ h2 { margin-bottom: .75rem; color: var(--purple); font-size: clamp(1.8rem, 4vw, 
 .qr-output { overflow-wrap: anywhere; }
 .qr-output img { width: 300px; max-width: 100%; padding: 12px; border: 1px solid var(--line); }
 .about-section {position: relative; padding: 80px 0; background: var(--mist);}
-.about-section::before {content: ""; position: absolute; top: 0; left: 0; width: 120px; height: 7px; background: var(--yellow);}
+.about-section::before {content: ""; position: absolute; top: 0; left: 0; width: 120px; height: 7px;}
 .about-section__intro { max-width: 760px; margin-bottom: 42px;}
 .about-section__intro h2 { margin-bottom: 18px;}
 .about-section__lead { margin: 0; color: var(--slate); font-size: clamp(1.05rem, 2vw, 1.25rem); line-height: 1.8;}
