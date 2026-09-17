@@ -83,4 +83,23 @@ const PEOPLE = {
 
         Mijn geweldige broertje is er niet meer. Het is zo verdrietig, schrijft zijn broer Frank Dane op Instagram. Ik ga je warmte zo missen lieve, lieve Robert. Waar je ook was op deze wereld. Ik kwam naar je toe en tot diep in de nacht was het magisch. Weet niet waar ik zou zijn zonder je. Wat een geluk dat jij mijn broer bent. Voor altijd.`
   },
+    "004": {
+    name: "Ben Saunders",
+    born: "9 juli 1983",
+    died: "15 september 2026",
+    heroPhoto: "img/004/001-hoofdfoto.jpg",
+    photos: [
+      "img/004/002.jpg",
+      "img/004/003.jpg",
+    ],
+    bio: `Om met de woorden van onze zoon Benji te spreken: ‘Mama ik heb een gat in mijn hart die nog maar voor 1 procent gevuld is...’, schrijft Engels woensdagavond op Instagram in een verklaring. In navolging van Saunders broer Dean, bevestigt zij nu ook dat Ben is overleden.
+
+          ​’Dit verlies slaat een onbeschrijfelijk groot gat in ons leven. Wij vragen iedereen nadrukkelijk om onze privacy in deze ontzettend moeilijke periode te respecteren. Geef ons als familie en naasten de rust en de ruimte die wij nu zo hard nodig hebben om dit verwerkingsproces in alle stilte in te gaan en het afscheid voor te bereiden. Wij danken eenieder voor het begrip’, aldus Engels, die meldt dat er voorlopig geen verdere mededelingen zullen worden gedaan.
+
+          Wel kunnen fans en media aanstaande zaterdag afscheid nemen van Ben in hun tattooshop in Arnhem.
+
+          Saunders, afkomstig uit Hoorn (Noord-Holland), verhuisde onlangs naar Arnhem, waar zijn vriendin vandaan komt. Daar werd dinsdagochtend op Burgernet een signalement verspreid van een vermiste man, dat overeenkwam met de zanger. Later werd een lichaam gevonden bij de Rijkerswoerdseplassen, ten zuiden van de stad. Een misdrijf is uitgesloten.
+
+          Engels en Saunders hebben een zoon, Benji Ray (9). Beiden hadden al een kind uit een eerdere relatie.`
+  },
 };
